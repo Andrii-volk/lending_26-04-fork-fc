@@ -1,0 +1,23 @@
+.about-me {
+  margin: 0 auto;
+}
+
+.about-me-header {
+  margin: 1rem;
+  font-size: 1.5rem;
+  color: black;
+}
+
+@media screen and (min-width: 992px) {
+  .about-me-header {
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .about-me-header {
+    margin-top: 4rem;
+    font-size: 2.5rem;
+  }
+}
