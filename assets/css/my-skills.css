@@ -1,0 +1,63 @@
+.wrapper-section-my-skills {
+}
+.container {
+}
+.my-skills {
+}
+.row {
+}
+.col-12 {
+}
+.col-md-6 {
+}
+.wrapper-photo-user {
+  width: 80%;
+  margin: auto;
+}
+.inner-wrapper-photo-user {
+  padding-top: 80%;
+  position: relative;
+}
+.photo-user {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.heading-my-skills {
+  margin: 1rem;
+  font-size: 1.5rem;
+  color: black;
+}
+.overflow {
+}
+
+.discription-my-skills {
+  position: relative;
+  padding: 2rem;
+}
+.discription-my-skills::before {
+  content: "";
+  position: absolute;
+  left: 30px;
+  right: 0;
+  top: 70px;
+  bottom: 0;
+  width: 350px;
+  height: 4px;
+  background-color: var(--accent-color);
+}
+.discription-my-skills::after {
+  content: "";
+  position: absolute;
+  left: 380px;
+  right: 0;
+  top: 70px;
+  bottom: 0;
+  width: 95px;
+  height: 4px;
+  background-color: #c4c4c4;
+}
