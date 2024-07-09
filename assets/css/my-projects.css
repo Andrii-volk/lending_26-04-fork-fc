@@ -1,20 +1,25 @@
-.wrapper-my-projects{
+.wrapper-my-projects {
   height: 15rem;
   background-color: var(--accent-color);
 }
 
-.align-icons-center{
+.align-icons-center {
   display: flex;
-justify-content: space-between;
-align-items: center;
-
+  justify-content: center;
+  align-items: center;
 }
-.wrapper-my-projects-icons{
+/* .wrapper-my-projects-icons{
   margin-top: 1rem;
   margin-bottom: 1rem;
+} */
+
+.icon-project {
+  margin-top :2rem ;
+  margin-bottom: 1rem;
 }
-@media screen and (max-width:576px) {
-  .wrapper-my-projects-icons,.wrapper-my-projects{
-    display: none;
+@media screen and (max-width: 576px) {
+  .wrapper-my-projects-icons,
+  .wrapper-my-projects {
+    /* display: none; */
   }
 }

@@ -1,6 +1,10 @@
 .about-me {
   margin: 0 auto;
 }
+.section-about-me{
+  padding-top: 2rem ;
+  padding-bottom: 2rem;
+}
 
 .about-me-header {
   margin: 1rem;
