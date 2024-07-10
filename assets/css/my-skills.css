@@ -1,4 +1,6 @@
 .wrapper-section-my-skills {
+  padding-top: 2rem;
+  margin-bottom: 3rem;
 }
 .container {
 }
@@ -11,7 +13,7 @@
 .col-md-6 {
 }
 .wrapper-photo-user {
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 .inner-wrapper-photo-user {
@@ -46,14 +48,14 @@
   right: 0;
   top: 70px;
   bottom: 0;
-  width: 350px;
+  width: 250px;
   height: 4px;
   background-color: var(--accent-color);
 }
 .discription-my-skills::after {
   content: "";
   position: absolute;
-  left: 380px;
+  left: 280px;
   right: 0;
   top: 70px;
   bottom: 0;
